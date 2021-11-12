@@ -1,0 +1,33 @@
+#head{
+  text-align: center;
+}
+.light-head{
+  color: rebeccapurple;
+}
+.dark-head{
+  color: darkorchid;
+}
+
+
+body{
+  background-color: lightblue;
+  color: darkslategray;
+}
+.dark-mode{
+  background-color: midnightblue;
+  color: white;
+}
+
+
+#dark-light{
+  background-color: black;
+  color: white;
+}
+.no-disp{
+  display: none;
+}
+
+
+#generator{
+  background-color: lightgreen;
+}
