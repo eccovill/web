@@ -27,9 +27,9 @@ function toggleLightDark(){
 }
 
 
-const genButton = document.querySelector('#generator');
-const darkLightButton = document.querySelector('#dark-light');
-const lightDarkButton = document.querySelector('#light-dark');
-genButton.addEventListener('click', createPrompt);
-darkLightButton.addEventListener('click',toggleLightDark);
-lightDarkButton.addEventListener('click',toggleLightDark);
+const genButton = document.querySelector("#generator");
+const darkLightButton = document.querySelector("#dark-light");
+const lightDarkButton = document.querySelector("#light-dark");
+genButton.addEventListener("click", createPrompt);
+darkLightButton.addEventListener("click",toggleLightDark);
+lightDarkButton.addEventListener("click",toggleLightDark);
