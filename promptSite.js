@@ -10,7 +10,7 @@ function createPrompt() {
 	const locInd = Math.floor(Math.random()*locations.length)
   	const l = locations[locInd];
 	const imgEl = document.querySelector("#location");
-	imgEl.src = locImages[locInd];
+	imgEl.src = "images/" + locImages[locInd];
 	imgEl.alt = locAltText[locInd];
   	const c = companions[Math.floor(Math.random()*companions.length)];
   	paragraph.textContent = "You are feeling "+f+" while "+l+" with "+c+".";
