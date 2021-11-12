@@ -1,11 +1,17 @@
 const feelings = ["lost","loving","afraid","angry","longing","generous","curious","brave"];
 const locations = ["in the forest","at the theatre","at the beach","in space","at a museum","at school","on vacation"];
+const locImages = ["forest.jpg","theatre.jpg","beach.jpg","space.jpg","museum.jpg","school.jpg","vacation.jpg"];
+const locAltText = ["A forest path","A theatre crowd facing a stage","A beach","A museum room with display cases","An empty classroom","A plane taking off"];
 const companions = ["an old friend","an enemy","a lover","a coworker","a roommate","a cat","a sibling","a long-lost relative"];
 
 function createPrompt() {
 	const paragraph = document.querySelector("#response");
 	const f = feelings[Math.floor(Math.random()*feelings.length)];
-  	const l = locations[Math.floor(Math.random()*locations.length)];
+	const locInd = Math.floor(Math.random()*locations.length)
+  	const l = locations[locInd];
+	const imgEl = document.querySelector("#location");
+	imgEl.src = locImages[locInd];
+	imgEl.alt = locAltText[locInd];
   	const c = companions[Math.floor(Math.random()*companions.length)];
   	paragraph.textContent = "You are feeling "+f+" while "+l+" with "+c+".";
 }
