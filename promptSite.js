@@ -1,7 +1,7 @@
-const feelings = ["lost","loving","afraid","angry","longing","generous","curious","brave","nervous","excited"];
-const locations = ["in the forest","at the theatre","at the beach","in space","at a museum","at school","on vacation"];
-const locImages = ["forest.jpg","theatre.jpg","beach.jpg","space.jpg","museum.jpg","school.jpg","vacation.jpg"];
-const locAltText = ["A forest path","A theatre crowd facing a stage","A beach","A museum room with display cases","An empty classroom","A plane taking off"];
+const feelings = ["lost","loving","afraid","angry","longing","generous","curious","brave","nervous","excited","tired","lonely","sick"];
+const locations = ["in the forest","at the theatre","at the beach","in space","at a museum","at school","on vacation","at a haunted house","in a botanical garden","at the zoo","in a castle"];
+const locImages = ["forest.jpg","theatre.jpg","beach.jpg","space.jpg","museum.jpg","school.jpg","vacation.jpg","haunted-house.jpeg","garden.jpg","zoo.jpg","castle.jpg"];
+const locAltText = ["A forest path","A theatre crowd facing a stage","A beach","A museum room with display cases","An empty classroom","A plane taking off","A haunted house","A public garden","A white tiger in a zoo","A castle"];
 const companions = ["an former friend","a friend","an enemy","a lover","a coworker","a roommate","a cat","a sibling","a long-lost relative","an aquaintance","a monster","a stranger","no one in sight"];
 
 function createPrompt() {
